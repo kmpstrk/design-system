@@ -1,0 +1,74 @@
+.toggleContainer{
+    display: flex;
+    align-items: center;
+}
+
+.toggleSwitch { 
+    position: relative;
+    width: 50px;
+    height: 24px;
+}
+
+.toggleInput {
+    display: none;
+}
+
+
+.toggleSlider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: background-color 0.4s;
+    border-radius: 50px;
+}
+
+.toggleSlider:hover{
+    background-color: var(--disabled-green-color);
+}
+
+.toggleInput:checked + .toggleSlider:hover{
+    background-color: var(--dark-green);
+}
+
+.toggleSlider::before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: transform 0.4s;
+    border-radius: 50%;
+}
+
+
+.toggleInput:checked + .toggleSlider {
+    background-color: var(--main-green);
+}
+
+.toggleInput:checked + .toggleSlider::before {
+    transform: translateX(26px);
+}
+
+.toggleInput:disabled + .toggleSlider {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.toggleText{
+    text-wrap: nowrap;
+    margin-left: 8px;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-text-primary);
+}
+
+.toggleTextDisabled{
+    color: var(--color-text-secondary);
+    
+}

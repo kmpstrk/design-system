@@ -1,0 +1,36 @@
+.typography {
+    margin: 0;
+    line-height: var(--line-height-default);
+  }
+  
+  .typography_h1 {
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-secondary);
+    font-weight: var(--font-weight-bold);
+  }
+  
+  .typography_h2 {
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-secondary);
+    font-weight: var(--font-weight-medium);
+  }
+  
+  .typography_h3 {
+    font-size: var(--font-size-h3);
+    font-family: var(--font-family-secondary);
+    font-weight: var(--font-weight-medium);
+  }
+  
+  .typography_p {
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-normal);
+  }
+  
+  .typography_primary {
+    color: var(--color-text-primary);
+  }
+  
+  .typography_secondary {
+    color: var(--color-text-secondary);
+  }

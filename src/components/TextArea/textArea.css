@@ -1,0 +1,64 @@
+.textAreaContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.textAreaLabel{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-medium);
+
+    margin-bottom: 8px;
+}
+
+.textAreaField{
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    height: 150px;
+    padding: 8px 16px;
+    background-color: #f3f3f3;
+    border: 2px solid #cccccc00;
+    border-radius: 10px;
+    resize: vertical; 
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    line-height: var(--line-height-default);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-text-primary);
+}
+
+
+.textAreaField:hover{
+    background-color: #FCFCFC;
+    border-color: var(--light-green);;
+}
+
+.textAreaField:focus{
+    background-color: #FCFCFC;
+    border-color: var(--light-green);
+    outline: none;
+}
+
+.textAreaField:disabled{
+    cursor: not-allowed;
+    background-color: #f4f4f4;
+    color:#979797;
+}
+
+.textAreaField:disabled::placeholder{
+    color: #e6e6e6; 
+}
+
+.textAreaField:disabled:hover{
+    cursor: not-allowed;
+    background-color: #f4f4f4;
+    border-color: #f4f4f4;
+    
+}
+
+.textAreaDisabledLabel { 
+    color: var(--color-text-secondary);
+}
