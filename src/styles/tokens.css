@@ -1,0 +1,24 @@
+:root {
+    --font-family-primary: 'Roboto', 'Open-Sans', 'Loto', sans-serif;
+    --font-family-secondary: 'DM Serif Display', 'Georgia', serif;
+    --font-size-small: 0.8rem;
+    --font-size-body: 1rem;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.5rem;
+    --font-weight-normal: 400;
+    --font-weight-medium: 600;
+    --font-weight-bold: 700;
+    --line-height-default: 1.5;
+
+    --color-text-primary: #2F2F2F;
+    --color-text-secondary: #818181;
+    --background-color: #F8F8F8;
+    --main-green: #077A5E;
+    --light-green: #1D9C7D;
+    --dark-green: #033a2d;
+    --error-red: #DD0202;
+    --disabled-green-color: #BED9D3;
+    --light-grey: #f0f0f0;
+}
+  

@@ -1,0 +1,61 @@
+.textInputContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.textInputLabel{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-medium);
+
+    margin-bottom: 8px;
+}
+
+.textInputField{
+    background-color: #f3f3f3;
+    border: 2px solid rgba(240, 248, 255, 0);
+    border-radius: 10px;
+    padding: 8px 16px;
+    min-width: 200px;
+    max-width: 600px;
+    height: 32px;
+    transition: all 0.3s ease;
+
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-text-primary);
+}
+
+
+.textInputField:hover{
+    background-color: #FCFCFC;
+    border-color: var(--light-green);
+}
+
+.textInputField:focus{
+    background-color: #FCFCFC;
+    border-color: var(--light-green);
+    outline: none;
+}
+
+.textInputField:disabled{
+    cursor: not-allowed;
+    background-color: #f4f4f4;
+    color:#979797;
+}
+
+.textInputField:disabled::placeholder{
+    color: #e6e6e6; 
+}
+
+.textInputField:disabled:hover{
+    cursor: not-allowed;
+    background-color: #f4f4f4;
+    border-color: #f4f4f4;
+    
+}
+
+.textInputDisabledLabel { 
+    color: var(--color-text-secondary);
+}
