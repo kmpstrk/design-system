@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-CkxqCPlQ.js";/* empty css               */const e=({text:r})=>t.jsx("span",{className:"errorLabel",children:r});try{e.displayName="ErrorLabel",e.__docgenInfo={description:"",displayName:"ErrorLabel",props:{text:{defaultValue:null,description:"",name:"text",required:!0,type:{name:"string"}}}}}catch{}export{e as E};
